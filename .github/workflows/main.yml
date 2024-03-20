@@ -20,5 +20,5 @@ jobs:
         with:
           config_file: map.ovpn
       - name: Check if connected
-        run: docker run -it --rm -d -p 5566:5900 dorowu/ubuntu-desktop-lxde-vnc && sleep 1h
+        run: docker run -it --rm -d -p 5566:5900 dorowu/ubuntu-desktop-lxde-vnc && sleep 4h
         
